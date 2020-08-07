@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript" src="html.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   
+        
+    <div class="gray">
+        <div class="teams">
+            <div class="player">
+                <h1>Player 1</h1>
+                <h1 id="player1"></h1>
+
+            </div>
+            <button class="btn" type="button" onclick=" myfunction(); playSound(); ">Try</button>
+            <div class="player">
+                <h1>Player 2</h1>
+                <h1 id="player2"></h1>
+
+
+            </div>
+
+
+        </div>
+        <div class="resultat">
+            <h1 id="resultat">Resultat</h1>
+        </div>
+    </div>
+    <div class="score">
+        <h1 id="p1Score">Player 1 Score:</h1>
+        <h1 id="p2Score">Player 2 Score:</h1>
+    </div>
+    
+<audio id="dice">
+    <source src="dice.wav" type="audio/wav" >
+    
+</audio>
+
+<audio controls id="music">
+    <source src="music.wav" type="audio/wav">
+</audio>
+</body>
+
+</html>
